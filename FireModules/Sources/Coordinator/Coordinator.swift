@@ -38,11 +38,11 @@ public struct Navigation {
         Scope(state: \.emailRegistrationRoute, action: \.emailRegistrationRoute) {
             RegisterReducer()
         }
-        
+
         Scope(state: \.passwordCreationRoute, action: \.passwordCreationRoute) {
             RegisterReducer()
         }
-        
+
         Scope(state: \.loginRoute, action: \.loginRoute) {
             LoginReducer()
         }

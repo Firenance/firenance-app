@@ -41,7 +41,7 @@ public struct LoginReducer {
         public enum Route {
             case goToHome
         }
-        
+
         public enum Delegate {
             case logInButtonTapped
         }
